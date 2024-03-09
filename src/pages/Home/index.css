@@ -1,0 +1,9 @@
+.home {
+    padding: 0 0 0 36px;
+}
+
+.home-movie-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}

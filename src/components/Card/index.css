@@ -1,0 +1,48 @@
+.card-wrapper {
+    width: 300px;
+}
+
+.card-wrapper img .thumb {
+    width: 100%;
+}
+
+.card-wrapper .img {
+    position: relative;
+}
+
+.card-wrapper .book {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.card-wrapper .movie-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    opacity: 0.75;
+
+}
+
+.card-wrapper .movie-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-wrapper .movie-name {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 10px;
+}
