@@ -5,7 +5,7 @@ import { useState } from "react"
 
 function Home() {
   const [movie, setMovie] = useState()
-  const apiKey = import.meta.env.VITE_MOVIE_KEY
+  const apiKey = import.meta.env.VITE_MOVIE_KE
   const apiUrl = import.meta.env.VITE_MOVIE_API
 
   useEffect(() => {

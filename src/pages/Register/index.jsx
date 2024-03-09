@@ -57,7 +57,7 @@ function Register() {
         password: password.current.value
       }
       setIsLoading(true)
-      fetch(`${import.meta.env.VITE_AUTH_API}signup`, {
+      fetch(`${import.meta.env.VITE_AUT_API}signup`, {
         method: "POST",
         headers: {
           "Content-type": "application/json"

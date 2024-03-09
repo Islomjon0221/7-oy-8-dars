@@ -39,7 +39,7 @@ function Login() {
         password: password.current.value
       }
       setIsLoading(true)
-      fetch(`${import.meta.env.VITE_AUTH_API}signin`, {
+      fetch(`${import.meta.env.VITE_AUT_API}signin`, {
         method: "POST",
         headers: {
           "Content-type": "application/json"
